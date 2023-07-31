@@ -1,97 +1,183 @@
-- title: General Information
+- title: Basics
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yaohui Huang
+    - name: Contact
+      value: yhhuang5212 [at] gmail [dot] com
     - name: Languages
-      value: English, German
+      value: Mandarin, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Visiting Students
+      institution: Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China
+      year: 2023 Summer
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Visiting Students
+      institution: College of Computer Engineering, Jimei University, Xiamen, China
+      year: 2022 Summer
       description:
-        - Description 1.
-        - Description 2.
 
-- title: Experience
+    - title: Master Student
+      institution: Guangxi Minzu University, Nanning, China
+      year: 2021-now
+      description:
+        - "Major: Electronic Information"
+        - "Academic Performance Rank: 1/83"
+        - "Grade Point Average (GPA): 4.2/5.0"
+
+    - title: Bachelor
+      institution: Chengyi University College, Jimei University, Xiamen, China
+      year: 2016-2020
+      description:
+        - "Major: Computer Science and Technology"
+        - "Academic Performance Rank: 1/61"
+        - "Grade Point Average (GPA): 4.0/5.0"
+
+
+- title: Patents
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: A District Heating Load Forecasting Method, Device, Equipment and Storage Medium
+      year: 2022
+      description: 
+        - "Authors: Zhijin Wang, Peisong Zhang, Yaohui Huang, Yonggang Fu"
+        - "Number: 202211636175.2"
+        - "Status: Pending"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: A Non-alcoholic Fatty Liver Disease Diagnostic Model and Its Construction Method and System
+      year: 2022
+      description: 
+        - "Authors: Zhijin Wang, Peisong Zhang, Yaohui Huang, Wen Yang, Qilin Nie, Zhirong Chen."
+        - "Number: 202211381963.1"
+        - "Status: Pending"
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: A Subclinical Atherosclerosis Diagnostic Model and Its Construction Method and System
+      year: 2022
+      description: 
+        - "Authors: Zhijin Wang, Peisong Zhang, Jiangde Tu, Yaohui Huang, Yanggang Fu, Zhirong Chen"
+        - "Number: 202211368005.0"
+        - "Status: Pending"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: A Share Turnover Forecasting Method, Device, Equipment and Medium
+      year: 2022
+      description: 
+        - "Authors: Zhijin Wang, Yaohui Huang, Jiangde Tu, Peisong Zhang, Zhirong Chen"
+        - "Number: 202211367551.2"
+        - "Status: Pending"
 
-- title: Open Source Projects
+    - title: Using Fine-grained data for Hand-foot-mouth disease Forecasting Method, Electronic devices and Medium
+      year: 2020
+      description: 
+        - "Authors: Zhijin Wang, Yaohui Huang, Yonggang Fu"
+        - "Number: ZL2020107044"
+        - "Status: Authorized"
+
+    - title: Stock Trading Data Forecasting Method, Equipment, Electronic devices and Medium
+      year: 2020
+      description: 
+        - "Authors: Zongyue Wang, Yaohui Huang, Rui Ma, Zhijin Wang"
+        - "Number: 202010692574.5"
+        - "Status: Pending"
+
+- title: Software Copyright
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Intelligent Medical Image Remote Research Diagnosis System V1.0
+      year: 2022
+      description: 
+        - "Authors: Guangxi Minzu University, Yaohui Huang"
+        - "Number: 2022SR0814283"
+        - "Status: Authorized"
+
+- title: Project Experience
+  type: time_table
+  contents:
+    - title: Innovation Project of Guangxi Graduate Education
+      year: 2022-2023
+      description: 
+        - "Identity: Preside"
+        - "Provincial project"
+
+    - title: NSF of Fujian Province of China
+      year: 2021-2024
+      description: 
+        - "Identity: Participant"
+        - "Provincial project"
+
+    - title: Education and Research Project of Fujian Province
+      year: 2021-2023
+      description: 
+        - "Identity: Participant"
+        - "Provincial project"
+
+    - title: NSF of Fujian Province of China
+      year: 2019-2021
+      description: 
+        - "Identity: Main member"
+        - "Provincial project"
+
+    - title: NSF of Fujian Province of China
+      year: 2018-2020
+      description: 
+        - "Identity: Participant"
+        - "Provincial project"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Excellent Party Member of College of Electronic Information, Guangxi Minzu University
+        - Excellent League Member of College of Electronic Information, Guangxi Minzu University
+    - year: 2022
       items: 
-        - Max Planck Medal
+        - <b>IEA/AIE 2022 Best Special Session Paper Award<\b>
+        - <b>National scholarship for graduate students<\b>
+        - The Third-class Academic Scholarship of Graduate Students
+        - The Silver Award of the 10th "Challenge Cup" Guangxi College Student Business Plan Competition
+        - The Excellence Award of 13rd LAN QIAO International Collegiate Programming Contest
+          - (Final Competition, Postgraduate Division)
+        - The First Grade Award of 13rd LAN QIAO International Collegiate Programming Contest
+          - (Provincial Competition, Postgraduate Division)
 
-- title: Academic Interests
+    - year: 2021
+      items: 
+        - The First-class Academic Scholarship of Graduate Students.
+
+    - year: 2020
+      items: 
+        - The Excellence Prize in the 2nd IKCEST "Belt and Road" International Big Data Competition. (Top 3%)
+        - <b>Outstanding Graduates Award of Jimei University<\b>
+          
+
+    - year: 2019
+      items: 
+        - <b>Xiamen "Tan Kah Kee Foundation" Scholarship<\b>
+        - The Third Grade Award of The 10th LAN QIAO International Collegiate Programming Contest
+
+    - year: 2018
+      items: 
+        - The Excellence Prize in the IJCAI-18 Alimama Search Ads Conversion Prediction Competition (Top 5%)
+        - The First Grade Award of Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM2018)
+        - The Honorable Mention Award of Mathematical Contest In Modeling (MCM2018)
+        - Merit Students of Jimei University
+        - Excellent League Cadres of Jimei University
+
+    - year: 2017
+      items: 
+        - The First Grade Award of Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM2017)
+        - Merit students of Jimei University
+        - Outstanding League Cadres of Chengyi University College, Jimei University
+        - First-class scholarship of Chengyi University College, Jimei University
+
+- title: Service to the profession
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Reviewer for Journals
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Artificial Intelligence InMedicine (AIIM)
+        - Neural Processing Letters (NEPL)
+        - Signal, Image and Video Processing (SIVP)

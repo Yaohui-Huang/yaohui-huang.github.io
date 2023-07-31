@@ -10,9 +10,9 @@
             {%- if site.data.venues[entry.abbr].color != blank -%}
               {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
-            <abbr class="badge" style="background-color: #ff00fbd2; color: #ffffff;" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+            <abbr class="badge" style="background-color: #540353db; color: #ffffff;" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
-            <abbr class="badge" style="background-color: #ff00fbd2; color: #ffffff;" >{{entry.abbr}}</abbr>
+            <abbr class="badge" style="background-color: #540353db; color: #ffffff;" >{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
 
@@ -73,7 +73,7 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            <em style="color: #b97405c9;">{{author.first}} {{author.last}}</em>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
