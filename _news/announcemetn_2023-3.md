@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be visiting [TBSI, Tsinghua University](https://www.sigs.tsinghua.edu.cn/) as a visiting student from July to October. :runner:
+I will be visiting [TBSI, Tsinghua University](https://www.sigs.tsinghua.edu.cn/) as a visiting student from July to October.
