@@ -8,8 +8,9 @@ profile:
   align: right
   image: hyh.jpg
   image_circular: false # crops the image to make it circular
-  address: Fuzhou, Fujian, China
-  yhhuang5212[at]gmail[dot]com 
+  address:> 
+  <p>Fuzhou, Fujian, China</p>
+  <p>yhhuang5212[at]gmail[dot]com</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
