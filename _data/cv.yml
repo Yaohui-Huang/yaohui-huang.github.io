@@ -11,11 +11,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: Visiting Students
+    - title: Visiting Student
       institution: Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China
       year: 2023 Summer
       description:
-    - title: Visiting Students
+    - title: Visiting Student
       institution: College of Computer Engineering, Jimei University, Xiamen, China
       year: 2022 Summer
       description:
@@ -98,7 +98,7 @@
     - title: Innovation Project of Guangxi Graduate Education
       year: 2022-2023
       description: 
-        - "Identity: Preside"
+        - "Identity: <strong>Preside</strong>"
         - "Provincial project"
 
     - title: NSF of Fujian Province of China
