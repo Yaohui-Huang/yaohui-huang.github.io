@@ -12,11 +12,11 @@
   type: time_table
   contents:
     - title: Visiting Student
-      institution: Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China
+      institution: Tsinghua Shenzhen International Graduate School (SIGS), Tsinghua University, Shenzhen, China
       year: 2023 Summer
       description:
     - title: Visiting Student
-      institution: College of Computer Engineering, Jimei University, Xiamen, China
+      institution: College of Computer Engineering (CEC), Jimei University, Xiamen, China
       year: 2022 Summer
       description:
 
@@ -178,6 +178,6 @@
   contents:
     - title: Reviewer for Journals
       items: 
-        - Artificial Intelligence InMedicine (AIIM)
+        - Artificial Intelligence In Medicine (AIIM)
         - Neural Processing Letters (NEPL)
         - Signal, Image and Video Processing (SIVP)
