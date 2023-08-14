@@ -4,7 +4,7 @@
     - name: Full Name
       value: Yaohui Huang
     - name: Contact
-      value: yhhuang5212 [at] gmail [dot] com
+      value: yhhuang5212[at]gmail[dot]com
     - name: Languages
       value: Mandarin, English
 
@@ -143,6 +143,13 @@
         - "Title: Research on Personalized Recommendation Model for Social Influence"
         - "Identity: Participant"
         - "Provincial project"
+    
+    - title: General Program of National Natural Science Foundation of China
+      year: 2016-2020
+      description: 
+        - "Title: Research on theory and method of high resolution ultrasonic detection based on sparse time-frequency perception"
+        - "Identity: Participant"
+        - "National project"
 
 - title: Honors and Awards
   type: time_table
@@ -200,3 +207,4 @@
         - Artificial Intelligence In Medicine (AIIM)
         - Neural Processing Letters (NEPL)
         - Signal, Image and Video Processing (SIVP)
+        - Scientific Reports (SREP)
