@@ -40,46 +40,53 @@
 - title: Patents
   type: time_table
   contents:
+    - title: A Explainable District Heating Load Forecasting Method, Device, Equipment and Storage Medium
+      year: 2023
+      description: 
+        - "Authors: Zhijin Wang, <strong>Yaohui Huang</strong>, Hanjing Liu, et al."
+        - "Number: CN116576504A"
+        - "Status: Pending"
+
     - title: A District Heating Load Forecasting Method, Device, Equipment and Storage Medium
       year: 2022
       description: 
         - "Authors: Zhijin Wang, Peisong Zhang, <strong>Yaohui Huang</strong>, Yonggang Fu"
-        - "Number: 202211636175.2"
+        - "Number: CN115796382A"
         - "Status: Pending"
 
     - title: A Non-alcoholic Fatty Liver Disease Diagnostic Model and Its Construction Method and System
       year: 2022
       description: 
         - "Authors: Zhijin Wang, Peisong Zhang, <strong>Yaohui Huang</strong>, Wen Yang, Qilin Nie, Zhirong Chen."
-        - "Number: 202211381963.1"
+        - "Number: CN115910322A"
         - "Status: Pending"
 
     - title: A Subclinical Atherosclerosis Diagnostic Model and Its Construction Method and System
       year: 2022
       description: 
         - "Authors: Zhijin Wang, Peisong Zhang, Jiangde Tu, <strong>Yaohui Huang</strong>, Yanggang Fu, Zhirong Chen"
-        - "Number: 202211368005.0"
+        - "Number: CN115798704A"
         - "Status: Pending"
 
-    - title: A Share Turnover Forecasting Method, Device, Equipment and Medium
+    - title: Method, Device, Equipment and Medium for Share Turnover Prediction and Model Training
       year: 2022
       description: 
         - "Authors: Zhijin Wang, <strong>Yaohui Huang</strong>, Jiangde Tu, Peisong Zhang, Zhirong Chen"
-        - "Number: 202211367551.2"
+        - "Number: CN115908008A"
         - "Status: Pending"
 
     - title: Using Fine-grained data for Hand-foot-mouth disease Forecasting Method, Electronic devices and Medium
       year: 2020
       description: 
         - "Authors: Zhijin Wang, <strong>Yaohui Huang</strong>, Yonggang Fu"
-        - "Number: ZL2020107044"
+        - "Number: CN111863276B"
         - "Status: Authorized"
 
     - title: Stock Trading Data Forecasting Method, Equipment, Electronic devices and Medium
       year: 2020
       description: 
         - "Authors: Zongyue Wang, <strong>Yaohui Huang</strong>, Rui Ma, Zhijin Wang"
-        - "Number: 202010692574.5"
+        - "Number: CN111860998A"
         - "Status: Pending"
 
 - title: Software Copyright
@@ -96,32 +103,44 @@
   type: time_table
   contents:
     - title: Innovation Project of Guangxi Graduate Education
-      year: 2022-2023
+      year: 2023-2024
       description: 
+        - "Title: Research on Prediction and Application of Complex Time Series Data"
         - "Identity: <strong>Preside</strong>"
+        - "Provincial project"
+
+    - title: NSF of Fujian Province of China
+      year: 2022-2025
+      description: 
+        - "Title: Research on Drug Screening Model Based on Multi-omics Integration"
+        - "Identity: Participant"
         - "Provincial project"
 
     - title: NSF of Fujian Province of China
       year: 2021-2024
       description: 
+        - "Title: Interpretability Research of Infectious Diseases Prediction"
         - "Identity: Participant"
         - "Provincial project"
 
     - title: Education and Research Project of Fujian Province
       year: 2021-2023
       description: 
+        - "Title: Research on Several Key Technologies of Infectious Disease Prediction Based on Time Series Fusion"
         - "Identity: Participant"
         - "Provincial project"
 
     - title: NSF of Fujian Province of China
       year: 2019-2021
       description: 
+        - "Title: Research on Infectious Disease Prediction and Forecasting Technology for Heterogeneous Data Fusion"
         - "Identity: Main member"
         - "Provincial project"
 
     - title: NSF of Fujian Province of China
       year: 2018-2020
       description: 
+        - "Title: Research on Personalized Recommendation Model for Social Influence"
         - "Identity: Participant"
         - "Provincial project"
 
