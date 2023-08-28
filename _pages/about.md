@@ -19,8 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-`Acceptance builds CVs; Rejection builds men.` 
-
 Hi! I am currently a third-year Master's student at the [College of Electronic Information](https://ei.gxmzu.edu.cn/), [Guangxi Minzu University](http://www.gxun.edu.cn/), majoring in Electronic Information, advised by Prof. [Zhenkun Lu](https://ei.gxmzu.edu.cn/info/1053/3281.htm) and Prof. [Qinghua Huang](https://scholar.google.com/citations?hl=zh-CN&user=cdxgLCYAAAAJ). I received my Bachelor’s degree in Computer Science and Technology from [Chengyi College](http://chengyi.jmu.edu.cn/ssjgy.jsp?wbtreeid=1001), [Jimei University](http://www.jmu.edu.cn/) in 2020, advised by Prof. [Zhijin Wang](https://scholar.google.com/citations?user=rKUpBpMAAAAJ&hl=zh-CN).
 My research focuses on time series forecasting, smart healthcare, and developing robust and efficient algorithms driven by practical problems. 
 
