@@ -156,13 +156,14 @@
   contents:
     - year: 2023
       items: 
+        - <strong>National scholarship for graduate students</strong>
         - Excellent Party Member of College of Electronic Information, Guangxi Minzu University
         - Excellent League Member of College of Electronic Information, Guangxi Minzu University
     - year: 2022
       items: 
         - <strong>IEA/AIE 2022 Best Special Session Paper Award</strong>
         - <strong>National scholarship for graduate students</strong>
-        - The Third-class Academic Scholarship of Graduate Students
+        # - The Third-class Academic Scholarship of Graduate Students
         - The Silver Award of the 10th "Challenge Cup" Guangxi College Student Business Plan Competition
         - The Excellence Award of 13rd "Blue Bridge Cup" International Collegiate Programming Contest
           - (Final Competition, Postgraduate Division)
