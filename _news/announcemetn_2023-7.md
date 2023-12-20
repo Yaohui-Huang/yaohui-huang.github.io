@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper (coauthor) on temporal representation of time series was accepted by Appl. Intell. (CCF C, JCR Q2) in 2023. :sparkles:
+One paper (coauthor) on temporal representation was accepted by Applied Intelligence (CCF C, JCR Q2) in 2023. :sparkles:

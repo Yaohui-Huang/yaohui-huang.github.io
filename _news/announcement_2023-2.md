@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper (first author) on diabetic blood glucose prediction using GNN was accepted by Fron. Physiol. in 2023. :sparkles:
+One paper (first author) on diabetic blood glucose prediction using GNN was accepted by Fron. Physiol. (JCR Q2) in 2023. :sparkles:
