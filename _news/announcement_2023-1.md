@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper (coauthor) on heat load forecasting was accepted by Energy in 2023. :sparkles:
+One paper (coauthor) on heat load forecasting was accepted by Energy (JCR Q1) in 2023. :sparkles:
