@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper (co-first author) on energy economics was accepted by Neurocomputing (CCF C, JCR Q2) in 2024. :sparkles:
+One paper (co-first author) on energy economics was accepted by Neurocomputing (CCF C, JCR Q1) in 2024. :sparkles:
