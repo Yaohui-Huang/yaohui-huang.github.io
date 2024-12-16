@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaohui Huang's Homepage</title>
+    <!-- 引入CSS -->
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <!-- 引入字体图标库 (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="./images/earth.png">
+</head>
+<body>
+    <!-- 主容器 -->
+    <div class="container">
+        <!-- 左侧固定区域 -->
+        <aside class="sidebar">
+            <img src="./images/profile_square_534.jpg" alt="Profile Picture" class="profile-picture">
+            <h1>Yaohui Huang</h1>
+            <p>Ph.D. student in </p>
+            <p>School of Automation,</p>
+            <p>Central South University (CSU)</p>
+            <div class="social-links">
+                <!-- <a href="https://www.linkedin.com" class="social-icon"><i class="fab fa-linkedin"></i></a> -->
+                <a href="https://github.com/Yaohui-Huang" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://scholar.google.com/citations?user=cl5HYUEAAAAJ" class="social-icon"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.researchgate.net/profile/Yaohui-Huang" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" 
+                         alt="ResearchGate" style="width: 24px; height: 24px;">
+                </a>
+            </div> 
+            <h2>Contact Email</h2>
+            <p>yhhuang5212@gmail.com </p>
+        </aside>
+
+        <!-- 右侧内容区域 -->
+        <main class="content">
+            <section>
+                <!-- <h2>About Me</h2> -->
+                <p>
+                    <p>
+                        I am a first-year PhD student at the 
+                        <a href="https://soa.csu.edu.cn/index.htm" target="_blank">School of Automation</a>, 
+                        <a href="https://en.csu.edu.cn/" target="_blank">Central South University</a>, 
+                        under the supervision of Prof. 
+                        <a href="https://faculty.csu.edu.cn/wangyun1/en/index.htm" target="_blank">Yun Wang</a> 
+                        and Prof. 
+                        <a href="https://faculty.csu.edu.cn/zourunmin/en/index.htm" target="_blank">Runmin Zou</a>.
+                    </p>
+                    <p>
+                        Previously, I completed my Master's studies under the guidance of Prof. 
+                        <a href="https://ei.gxmzu.edu.cn/info/1053/3281.htm" target="_blank">Zhenkun Lu</a> 
+                        and Prof. 
+                        <a href="https://scholar.google.com/citations?user=cdxgLCYAAAAJ" target="_blank">Qinghua Huang</a>. During my undergraduate studies, I was mentored by Prof. 
+                        <a href="https://scholar.google.com/citations?user=rKUpBpMAAAAJ" target="_blank">Zhijin Wang</a>.
+                        I have also worked as a visiting student at 
+                        <a href="https://www.sigs.tsinghua.edu.cn/" target="_blank">SIGS, Tsinghua University</a> (2023, Summer), 
+                        under the supervision of Prof. 
+                        <a href="https://scholar.google.com/citations?hl=zh-CN&user=LLit50EAAAAJ&view_op=list_works" target="_blank">Qiuwei Wu</a>.
+                        Additionally, I collaborate closely with Dr. 
+                        <a href="https://scholar.google.com/citations?hl=zh-CN&user=b7r1FDwAAAAJ" target="_blank">Yuan Zhao</a> 
+                        and Prof. 
+                        <a href="http://xiufengliu.github.io/" target="_blank">Xiufeng Liu</a>.
+                    </p>
+                    <p>
+                        My research interests include <b>extreme regression</b>, <b>energy forecasting</b>, <b>time series analysis</b>, 
+                        <b>graph neural networks</b>, and <b>mixture of experts</b>. I am dedicated to developing robust and efficient algorithms that address practical challenges.
+                    </p>
+            </section>
+            
+            <section class="publications">
+                <h2>Selected Publications   <span class="full-list"><a href="#">[Full List]</a></span></h2>
+                <p><i>* indicates equal contribution</i></p>
+                <!-- Publication Item -->
+                <iframe id="publications-iframe" src="publications_section.html" 
+                        style="width: 100%; border: none; height: auto; margin-bottom: -15pt; margin-top: 0pt;" scrolling="no"></iframe>
+
+            <!-- Publication Item -->
+            </section>
+            
+            <script>
+                function resizeIframe() {
+                    var iframe = document.getElementById("publications-iframe");
+                    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
+                }
+            
+                // 等待 iframe 加载完成后调整高度
+                document.getElementById("publications-iframe").onload = resizeIframe;
+            
+                // 监听 iframe 内容变化时动态调整高度
+                window.addEventListener("resize", resizeIframe);
+            </script>
+
+            <section class="news">
+                <h2>News</h2>
+                <iframe id="news-iframe" src="news_section.html" 
+                        style="width: 100%; border: none; height: 240px; margin-bottom: -15pt; margin-top: -10pt;" 
+                        scrolling="yes"></iframe>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <iframe id="projects-iframe" src="projects_section.html" 
+                        style="width: 100%; border: none; height: 260px; margin-bottom: -15pt; margin-top: -10pt;" 
+                        scrolling="yes"></iframe>
+            </section>   
+            <section class="awards">
+                <h2>Awards</h2>
+                <iframe id="awards-iframe" src="awards_section.html" 
+                        style="width: 100%; border: none; height: 200px; margin-bottom: -25pt; margin-top: -10pt;" 
+                        scrolling="yes"></iframe>
+            </section>
+            <section class="academic-service">
+                <h2>Academic Service</h2>
+                <hr>
+                <ul>
+                    <!-- <li>
+                        <b>Conference reviewer:</b> 
+                        ICLR, ICML, NeurIPS, CVPR, ICCV, ECCV, SIGGRAPH, IJCAI, AAAI, ACMMM, etc.
+                    </li> -->
+                    <li>
+                        <b>Journal reviewer:</b> 
+                        IEEE Transactions on Industrial Informatics (TII), Knowledge and Information Systems (KAIS), Artificial Intelligence In Medicine (AIIM), Neural Processing Letters (NEPL), etc.
+                    </li>
+                </ul>
+            </section>
+            
+        
+        </main>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; Yaohui Huang 2024</p>
+        </div>
+    </footer>
+
+</body>
+</html>
