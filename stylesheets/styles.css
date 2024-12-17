@@ -12,20 +12,23 @@ body {
     line-height: 1.6;
 }
 
-/* 主容器：左右布局 */
+/* 主容器：居中且调整左右空白区域 */
 .container {
     display: flex;
-    flex-wrap: wrap; /* 小屏幕时自动换行 */
-    min-height: 100vh;
+    flex-wrap: nowrap; /* 避免换行 */
+    max-width: 1100px; /* 最大宽度限制，具体可调整 */
+    min-width: 600px; /* 最小宽度，保证内容不被压缩 */
+    margin: 0 auto; /* 水平居中 */
+    padding-left: 5%; /* 左侧动态空白区域 */
+    padding-right: 5%; /* 右侧动态空白区域 */
 }
 
 /* 左侧固定区域 */
 .sidebar {
-    flex: 0 0 300px; /* 左侧宽度固定 */
+    flex: 0 0 300px; /* 固定宽度 */
     background-color: #f9f9f9;
     padding: 20px;
     text-align: center;
-    position: fixed;
     height: 100vh;
     overflow-y: auto;
 }
@@ -69,11 +72,10 @@ h1, h2, h3 {
 
 /* 右侧内容区域 */
 .content {
-    margin-left: 300px; /* 留出左侧固定区域的空间 */
-    flex: 1;
+    flex: 1; /* 占据剩余空间 */
+    background-color: #ffffff00;
     padding: 20px;
-    overflow-y: auto;
-    width: calc(100% - 300px);
+    box-sizing: border-box;
 }
 
 section {
@@ -226,25 +228,42 @@ a:hover {
     color: #000;
 }
 
+
+/* 小屏幕适配 */
+@media (max-width: 1200px) {
+    .container {
+        padding-left: 2%; /* 小屏幕时减少左右空白 */
+        padding-right: 2%;
+    }
+}
+
+/* 小屏幕适配 */
 /* 小屏幕适配 */
 @media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* 垂直堆叠布局 */
+    }
+
     .sidebar {
-        position: relative;
-        flex: 1 1 100%;
+        position: relative; /* 恢复流布局 */
+        flex: 0 0 auto; /* 高度自适应 */
         height: auto;
-        margin-bottom: 20px;
+        margin-bottom: 20px; /* 与内容间留出空白 */
     }
 
     .content {
-        margin-left: 0;
-        width: 100%;
+        margin: 0 auto; /* 居中显示 */
+        padding: 15px;
+        width: 100%; /* 占满屏幕宽度 */
     }
 
-    .pub-image {
-        width: 100px;
-        height: 100px;
+    .profile-picture {
+        width: 120px; /* 头像缩小 */
+        margin-bottom: 10px;
     }
 }
+
+
 
 .highlight {
     background-color: #ffd90078; /* 金黄色背景 */
