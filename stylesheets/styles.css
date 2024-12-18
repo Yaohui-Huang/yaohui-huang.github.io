@@ -257,6 +257,11 @@ a:hover {
         width: 100%; /* 占满屏幕宽度 */
     }
 
+    .sidebar, .content {
+        width: 100%; /* 宽度占满 */
+        padding: 15px;
+    }
+
     .profile-picture {
         width: 120px; /* 头像缩小 */
         margin-bottom: 10px;
@@ -407,7 +412,7 @@ a:hover {
 .project-label {
     font-weight: bold;
     color: #555;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .project-level {
@@ -421,7 +426,7 @@ a:hover {
 
 .project-content {
     color: #444;
-    font-size: small;
+    font-size: 0.8em;
 }
 
 .project-during {
