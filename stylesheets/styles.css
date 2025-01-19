@@ -7,7 +7,7 @@
 
 body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; /* 全局字体 */
-    background-color: #f9f9f9;
+    background-color: #fff;
     color: #333;
     line-height: 1.6;
 }
@@ -16,8 +16,8 @@ body {
 .container {
     display: flex;
     flex-wrap: nowrap; /* 避免换行 */
-    max-width: 1100px; /* 最大宽度限制，具体可调整 */
-    min-width: 600px; /* 最小宽度，保证内容不被压缩 */
+    max-width: 1100px; /* 最大宽度限制，保持不变 */
+    min-width: 300px;  /* 减小最小宽度，使其与移动端视图匹配 */
     margin: 0 auto; /* 水平居中 */
     padding-left: 5%; /* 左侧动态空白区域 */
     padding-right: 5%; /* 右侧动态空白区域 */
@@ -26,7 +26,7 @@ body {
 /* 左侧固定区域 */
 .sidebar {
     flex: 0 0 300px; /* 固定宽度 */
-    background-color: #f9f9f9;
+    background-color: #fff;
     padding: 20px;
     text-align: center;
     height: 100vh;
@@ -73,7 +73,7 @@ h1, h2, h3 {
 /* 右侧内容区域 */
 .content {
     flex: 1; /* 占据剩余空间 */
-    background-color: #ffffff00;
+    background-color: #fff;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -238,9 +238,9 @@ a:hover {
 }
 
 /* 小屏幕适配 */
-/* 小屏幕适配 */
 @media (max-width: 768px) {
     .container {
+        min-width: unset; /* 在移动端移除最小宽度限制 */
         flex-direction: column; /* 垂直堆叠布局 */
     }
 
@@ -320,7 +320,7 @@ a:hover {
 
 /* Footer 样式 */
 .footer {
-    background-color: #f1f1f100; /* 浅灰背景色 */
+    background-color: #fff;
     color: #333; /* 深灰字体 */
     text-align: center; /* 内容居中 */
     padding: 15px 10px; /* 内边距 */
@@ -400,7 +400,7 @@ a:hover {
 .projects-list li {
     margin-bottom: 15px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #fff;
     border-left: 5px solid #007bff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1em;
@@ -503,4 +503,19 @@ a:hover {
 /* 使 JCR, CCF, EI 标签与年份对齐 */
 .pub-content p i {
     margin-right: 10px;
+}
+
+/* Adjust section spacing for mobile/portrait view */
+@media (max-width: 768px) {
+    section {
+        margin-bottom: 15px;
+    }
+
+    .news, .projects, .awards {
+        margin: 10px 0;
+    }
+
+    section h2 {
+        margin-bottom: 8px;
+    }
 }

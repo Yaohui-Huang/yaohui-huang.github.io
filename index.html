@@ -48,10 +48,7 @@
                         <a href="https://faculty.csu.edu.cn/zourunmin/en/index.htm" target="_blank">Runmin Zou</a>.
                     </p>
                     <p>
-                        Previously, I completed my Master's studies under the guidance of Prof. 
-                        <a href="https://ei.gxmzu.edu.cn/info/1053/3281.htm" target="_blank">Zhenkun Lu</a> 
-                        and Prof. 
-                        <a href="https://scholar.google.com/citations?user=cdxgLCYAAAAJ" target="_blank">Qinghua Huang</a>. During my undergraduate studies, I was mentored by Prof. 
+                        Previously, I completed my Master's studies under the guidance of Prof. Zhenkun Lu</a>. During my undergraduate studies, I was mentored by Prof. 
                         <a href="https://scholar.google.com/citations?user=rKUpBpMAAAAJ" target="_blank">Zhijin Wang</a>.
                         I have also worked as a visiting student at 
                         <a href="https://www.sigs.tsinghua.edu.cn/" target="_blank">SIGS, Tsinghua University</a> (2023, Summer), 
@@ -94,22 +91,24 @@
             <section class="news">
                 <h2>News</h2>
                 <iframe id="news-iframe" src="news_section.html" 
-                        style="width: 100%; border: none; height: 240px; margin-bottom: -15pt; margin-top: -10pt;" 
-                        scrolling="yes"></iframe>
+                        style="width: 100%; border: none; overflow: hidden; max-width: 100%; display: block;"
+                        scrolling="no"></iframe>
             </section>
 
             <section class="projects">
                 <h2>Projects</h2>
                 <iframe id="projects-iframe" src="projects_section.html" 
-                        style="width: 100%; border: none; height: 260px; margin-bottom: -15pt; margin-top: -10pt;" 
-                        scrolling="yes"></iframe>
+                        style="width: 100%; border: none; overflow: hidden; max-width: 100%; display: block;"
+                        scrolling="no"></iframe>
             </section>   
+
             <section class="awards">
                 <h2>Awards</h2>
                 <iframe id="awards-iframe" src="awards_section.html" 
-                        style="width: 100%; border: none; height: 200px; margin-bottom: -25pt; margin-top: -10pt;" 
-                        scrolling="yes"></iframe>
+                        style="width: 100%; border: none; overflow: hidden; max-width: 100%; display: block;"
+                        scrolling="no"></iframe>
             </section>
+
             <section class="academic-service">
                 <h2>Academic Service</h2>
                 <hr>
@@ -136,6 +135,48 @@
             <p>&copy; Yaohui Huang 2024</p>
         </div>
     </footer>
+
+    <script>
+        // Function to update iframe heights
+        function updateIframeHeights() {
+            const iframes = ['news-iframe', 'projects-iframe', 'awards-iframe'];
+            iframes.forEach(id => {
+                const iframe = document.getElementById(id);
+                if (iframe && iframe.contentWindow) {
+                    // Reset height to force recalculation
+                    iframe.style.height = '0px';
+                    // Get the actual content height
+                    const height = iframe.contentWindow.document.documentElement.scrollHeight;
+                    iframe.style.height = height + 'px';
+                }
+            });
+        }
+
+        // Create a media query observer
+        const mediaQuery = window.matchMedia('(max-width: 768px)');
+        function handleMediaQueryChange(e) {
+            // Multiple updates to ensure proper rendering
+            updateIframeHeights();
+            setTimeout(updateIframeHeights, 100);
+            setTimeout(updateIframeHeights, 300);
+        }
+        
+        // Listen for media query changes
+        mediaQuery.addListener(handleMediaQueryChange);
+
+        // Handle window resize
+        let resizeTimeout;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(updateIframeHeights, 100);
+        });
+
+        // Initial setup
+        window.addEventListener('load', function() {
+            updateIframeHeights();
+            setTimeout(updateIframeHeights, 300);
+        });
+    </script>
 
 </body>
 </html>
