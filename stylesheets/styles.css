@@ -160,6 +160,13 @@ a:hover {
     margin: 5px 0;
 }
 
+.pub-award {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #d11212;
+    margin: 5px 0;
+}
+
 .pub-links {
     margin-top: 8px;
 }
