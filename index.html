@@ -66,26 +66,39 @@
             </section>
             
             <section class="publications">
-                <h2>Selected Publications   <span class="full-list"><a href="https://scholar.google.com/citations?user=cl5HYUEAAAAJ">[Full List]</a></span></h2>
-                <p><i><b>*</b> equal contribution; <b>#</b> corresponding author</i></p>
-                <!-- Publication Item -->
-                <iframe id="publications-iframe" src="publications_section.html" 
-                        style="width: 100%; border: none; height: auto; margin-bottom: -15pt; margin-top: 0pt;" scrolling="no"></iframe>
+            <h2>Selected Publications
+                <span class="full-list"><a href="https://scholar.google.com/citations?user=cl5HYUEAAAAJ">[Full List]</a></span>
+            </h2>
+            <p><i><b>*</b> equal contribution; <b>#</b> corresponding author</i></p>
 
-            <!-- Publication Item -->
+            <div id="publications-container"></div>
             </section>
-            
+
             <script>
-                function resizeIframe() {
-                    var iframe = document.getElementById("publications-iframe");
-                    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
+            (async function loadPubs(){
+                const resp = await fetch('publications_section.html', {cache: 'no-store'});
+                const html = await resp.text();
+
+                // 解析并抽出内容
+                const tmp = document.createElement('div');
+                tmp.innerHTML = html;
+
+                // 1) 把 <section class="publications"> 内部插入到页面
+                const section = tmp.querySelector('section.publications');
+                if (section) {
+                document.getElementById('publications-container').replaceWith(section);
                 }
-            
-                // 等待 iframe 加载完成后调整高度
-                document.getElementById("publications-iframe").onload = resizeIframe;
-            
-                // 监听 iframe 内容变化时动态调整高度
-                window.addEventListener("resize", resizeIframe);
+
+                // 2) 把内联 <style> 注入到 <head>（如果你生成文件里带了样式）
+                tmp.querySelectorAll('style').forEach(s => document.head.appendChild(s));
+
+                // 3) 执行生成文件里的 <script>（open/close/copy 等）
+                tmp.querySelectorAll('script').forEach(s => {
+                const ns = document.createElement('script');
+                if (s.src) { ns.src = s.src; } else { ns.textContent = s.textContent; }
+                document.body.appendChild(ns);
+                });
+            })();
             </script>
 
             <section class="news">
@@ -119,7 +132,7 @@
                     </li>
                     <li>
                         <b>Journal reviewer:</b> 
-                        IEEE Transactions on Industrial Informatics (TII), Engineering Applications of Artificial Intelligence (EAAI), Knowledge and Information Systems (KAIS), International Review of Financial Analysis (FINANA), Journal of Building Engineering (JBE), Neurocomputing (NEUCOM), Artificial Intelligence In Medicine (AIIM), Neural Processing Letters (NEPL), etc.
+                        IEEE Transactions on Smart Grid (TSG), IEEE Transactions on Industrial Informatics (TII), Applied Energy (APEN), Engineering Applications of Artificial Intelligence (EAAI), Knowledge and Information Systems (KAIS), International Review of Financial Analysis (FINANA), Journal of Building Engineering (JBE), International Journal of Electrical Power & Energy Systems (IJEPES), Neurocomputing (NEUCOM), Artificial Intelligence In Medicine (AIIM), Neural Processing Letters (NEPL), Electric Power Systems Research (EPSR), Cleaner Engineering and Technology (CLET), etc.
                     </li>
                 </ul>
             </section>

@@ -181,6 +181,29 @@ a:hover {
     text-decoration: underline;
 }
 
+.publication-item .pub-actions {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12px;   /* 按钮间距 */
+    flex-wrap: wrap;
+}
+
+.publication-item .pub-actions .btn-link {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: inherit;          /* 继承 Paper 的字体大小 */
+    font-family: inherit;        /* 继承 Paper 的字体族 */
+    font-weight: inherit;        /* 继承 Paper 的粗细 */
+    color: #007BFF; /* 跟 Paper 链接同色，如果全局定义 a 标签颜色可删掉 */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.publication-item .pub-actions .btn-link:hover {
+    text-decoration: underline;  /* 悬停时加下划线 */
+}
 /* Full List 链接 */
 .full-list a {
     font-size: 0.9em;
@@ -425,6 +448,15 @@ a:hover {
 .project-level {
     font-weight: bold;
     background-color: #1e88e5; /* 蓝色背景 */
+    color: #fff; /* 白色字体 */
+    font-size: 0.7em;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.project-position {
+    font-weight: bold;
+    background-color: #33a1d8; /* 蓝色背景 */
     color: #fff; /* 白色字体 */
     font-size: 0.7em;
     padding: 2px 8px;
