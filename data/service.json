@@ -1,0 +1,26 @@
+{
+  "conferenceReviewers": [
+    "AAAI'26/27",
+    "CIKM'26"
+  ],
+  "journalReviewers": [
+    "IEEE Transactions on Smart Grid (TSG)",
+    "IEEE Transactions on Industrial Informatics (TII)",
+    "IEEE Transactions on Transportation Electrification (TTE)",
+    "IEEE Journal of Biomedical and Health Informatics (JBHI)",
+    "Applied Energy (APEN)",
+    "Applied Soft Computing (ASOC)",
+    "Advanced Engineering Informatics (AEI)",
+    "Artificial Intelligence In Medicine (AIIM)",
+    "Engineering Applications of Artificial Intelligence (EAAI)",
+    "Expert Systems with Applications (ESWA)",
+    "Energy",
+    "International Review of Financial Analysis (FINANA)",
+    "International Journal of Electrical Power & Energy Systems (IJEPES)",
+    "Knowledge and Information Systems (KAIS)",
+    "Knowledge-Based Systems (KNOSYS)",
+    "Neurocomputing (NEUCOM)",
+    "Neural Networks (NEUNET)",
+    "etc."
+  ]
+}

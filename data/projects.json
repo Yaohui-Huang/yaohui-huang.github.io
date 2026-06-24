@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "level": "School",
+      "position": "Lead",
+      "label": "Fundamental Research Funds for the Central Universities of Central South University",
+      "during": "2025-2027",
+      "content": "Research on load forecasting and anomaly detection methods of multi-energy cooperative system"
+    },
+    {
+      "level": "Provincial",
+      "position": "Lead",
+      "label": "Innovation Project of Guangxi Graduate Education",
+      "during": "2023-2024",
+      "content": "Research on prediction and application of complex time series data"
+    },
+    {
+      "level": "National",
+      "position": "Participant",
+      "label": "National Natural Science Foundation of China",
+      "during": "2024-2027",
+      "content": "Research on trustworthy regression modeling methods for complex uncertainties"
+    },
+    {
+      "level": "Industry",
+      "position": "Participant",
+      "label": "CSG Industry-Sponsored Project",
+      "during": "2024-2025",
+      "content": "My main responsibility is load forecasting for EV charging/swapping stations and other flexible resources"
+    }
+  ]
+}

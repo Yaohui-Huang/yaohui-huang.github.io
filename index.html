@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yaohui Huang's Homepage</title>
     <!-- 引入CSS -->
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/styles.css?v=20260624-4">
     <!-- 引入字体图标库 (Font Awesome) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" type="image/png" href="./images/earth.png">
 </head>
 <body>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
     <!-- 主容器 -->
     <div class="container">
         <!-- 左侧固定区域 -->
@@ -22,23 +27,34 @@
             <p>Central South University (CSU)</p>
             <div class="social-links">
                 <!-- <a href="https://www.linkedin.com" class="social-icon"><i class="fab fa-linkedin"></i></a> -->
-                <a href="https://github.com/Yaohui-Huang" class="social-icon"><i class="fab fa-github"></i></a>
-                <a href="https://scholar.google.com/citations?user=cl5HYUEAAAAJ" class="social-icon"><i class="fas fa-graduation-cap"></i></a>
-                <a href="https://www.researchgate.net/profile/Yaohui-Huang" target="_blank">
+                <a href="https://github.com/Yaohui-Huang" class="social-icon" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://scholar.google.com/citations?user=cl5HYUEAAAAJ" class="social-icon" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.researchgate.net/profile/Yaohui-Huang" class="social-icon researchgate-link" target="_blank" rel="noopener" aria-label="ResearchGate">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" 
-                         alt="ResearchGate" style="width: 24px; height: 24px;">
+                         alt="">
                 </a>
             </div> 
             <h2>Contact Email</h2>
-            <p>yhhuang5212@gmail.com </p>
+            <p><a class="contact-email" href="mailto:yhhuang5212@gmail.com">yhhuang5212@gmail.com</a></p>
+
+            <nav class="section-nav" aria-label="Page sections">
+                <a href="#about" data-nav-target="about">About</a>
+                <a href="#publications" data-nav-target="publications">Publications</a>
+                <a href="#news" data-nav-target="news">News</a>
+                <a href="#projects" data-nav-target="projects">Projects</a>
+                <a href="#academic-service" data-nav-target="academic-service">Service</a>
+            </nav>
+
+            <button class="icon-button theme-toggle" type="button" aria-label="Toggle dark theme" title="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
         </aside>
 
         <!-- 右侧内容区域 -->
         <main class="content">
-            <section>
-                <!-- <h2>About Me</h2> -->
+            <section id="about" class="page-section about-section" data-section>
+                <h2>About Me</h2>
                 <p>
-                    <p>
                         I am a second-year PhD student at the 
                         <a href="https://soa.csu.edu.cn/index.htm" target="_blank">School of Automation</a>, 
                         <a href="https://en.csu.edu.cn/" target="_blank">Central South University</a>, 
@@ -48,7 +64,7 @@
                         <a href="https://faculty.csu.edu.cn/zourunmin/en/index.htm" target="_blank">Runmin Zou</a>.
                     </p>
                     <p>
-                        Previously, I completed my Master's studies under the guidance of Prof. Zhenkun Lu</a>. During my undergraduate studies, I was mentored by Prof. 
+                        Previously, I completed my Master's studies under the guidance of Prof. Zhenkun Lu. During my undergraduate studies, I was mentored by Prof. 
                         <a href="https://scholar.google.com/citations?user=rKUpBpMAAAAJ" target="_blank">Zhijin Wang</a>.
                         I have also worked as a visiting student at 
                         <a href="https://www.sigs.tsinghua.edu.cn/" target="_blank">SIGS, Tsinghua University</a> (2023, Summer), 
@@ -65,76 +81,29 @@
                     </p>
             </section>
             
-            <section class="publications">
+            <section id="publications" class="page-section publications" data-section>
             <h2>Selected Publications
-                <span class="full-list"><a href="https://scholar.google.com/citations?user=cl5HYUEAAAAJ">[Full List]</a></span>
+                <span class="full-list"><a href="publications.html">[All Publications]</a></span>
             </h2>
-            <p><i><b>*</b> equal contribution; <b>#</b> corresponding author</i></p>
+            <p class="publication-note"><i><b>*</b> equal contribution; <b>#</b> corresponding author</i></p>
 
-            <div id="publications-container"></div>
+            <div id="publications-container" class="section-loading">Loading publications...</div>
             </section>
 
-            <script>
-            (async function loadPubs(){
-                const resp = await fetch('publications_section.html', {cache: 'no-store'});
-                const html = await resp.text();
-
-                // 解析并抽出内容
-                const tmp = document.createElement('div');
-                tmp.innerHTML = html;
-
-                // 1) 把 <section class="publications"> 内部插入到页面
-                const section = tmp.querySelector('section.publications');
-                if (section) {
-                document.getElementById('publications-container').replaceWith(section);
-                }
-
-                // 2) 把内联 <style> 注入到 <head>（如果你生成文件里带了样式）
-                tmp.querySelectorAll('style').forEach(s => document.head.appendChild(s));
-
-                // 3) 执行生成文件里的 <script>（open/close/copy 等）
-                tmp.querySelectorAll('script').forEach(s => {
-                const ns = document.createElement('script');
-                if (s.src) { ns.src = s.src; } else { ns.textContent = s.textContent; }
-                document.body.appendChild(ns);
-                });
-            })();
-            </script>
-
-            <section class="news">
+            <section id="news" class="page-section news" data-section>
                 <h2>News</h2>
-                <iframe id="news-iframe" src="news_section.html" 
-                        style="width: 100%; border: none; overflow: hidden; max-width: 100%; display: block;"
-                        scrolling="no"></iframe>
+                <div id="news-container" class="section-loading">Loading news...</div>
             </section>
 
-            <section class="projects">
+            <section id="projects" class="page-section projects" data-section>
                 <h2>Projects</h2>
-                <iframe id="projects-iframe" src="projects_section.html" 
-                        style="width: 100%; border: none; overflow: hidden; max-width: 100%; display: block;"
-                        scrolling="no"></iframe>
-            </section>   
-
-            <section class="awards">
-                <h2>Awards</h2>
-                <iframe id="awards-iframe" src="awards_section.html" 
-                        style="width: 100%; border: none; overflow: hidden; max-width: 100%; display: block;"
-                        scrolling="no"></iframe>
+                <div id="projects-container" class="section-loading">Loading projects...</div>
             </section>
 
-            <section class="academic-service">
+            <section id="academic-service" class="page-section academic-service" data-section>
                 <h2>Academic Service</h2>
                 <hr>
-                <ul>
-                    <li>
-                        <b>Conference reviewer:</b> 
-                        AAAI’26
-                    </li>
-                    <li>
-                        <b>Journal reviewer:</b> 
-                        IEEE Transactions on Smart Grid (TSG), IEEE Transactions on Industrial Informatics (TII), Applied Energy (APEN), Engineering Applications of Artificial Intelligence (EAAI), Knowledge and Information Systems (KAIS), Knowledge-Based Systems (KNOSYS), International Review of Financial Analysis (FINANA), Journal of Building Engineering (JBE), International Journal of Electrical Power & Energy Systems (IJEPES), Neurocomputing (NEUCOM), Measurement (MEAS),Artificial Intelligence In Medicine (AIIM), Neural Processing Letters (NEPL), Electric Power Systems Research (EPSR), Energy and AI (EAI), Cleaner Engineering and Technology (CLET), etc.
-                    </li>
-                </ul>
+                <div id="service-container" class="section-loading">Loading service...</div>
             </section>
             
         
@@ -149,47 +118,7 @@
         </div>
     </footer>
 
-    <script>
-        // Function to update iframe heights
-        function updateIframeHeights() {
-            const iframes = ['news-iframe', 'projects-iframe', 'awards-iframe'];
-            iframes.forEach(id => {
-                const iframe = document.getElementById(id);
-                if (iframe && iframe.contentWindow) {
-                    // Reset height to force recalculation
-                    iframe.style.height = '0px';
-                    // Get the actual content height
-                    const height = iframe.contentWindow.document.documentElement.scrollHeight;
-                    iframe.style.height = height + 'px';
-                }
-            });
-        }
-
-        // Create a media query observer
-        const mediaQuery = window.matchMedia('(max-width: 768px)');
-        function handleMediaQueryChange(e) {
-            // Multiple updates to ensure proper rendering
-            updateIframeHeights();
-            setTimeout(updateIframeHeights, 100);
-            setTimeout(updateIframeHeights, 300);
-        }
-        
-        // Listen for media query changes
-        mediaQuery.addListener(handleMediaQueryChange);
-
-        // Handle window resize
-        let resizeTimeout;
-        window.addEventListener('resize', function() {
-            clearTimeout(resizeTimeout);
-            resizeTimeout = setTimeout(updateIframeHeights, 100);
-        });
-
-        // Initial setup
-        window.addEventListener('load', function() {
-            updateIframeHeights();
-            setTimeout(updateIframeHeights, 300);
-        });
-    </script>
+    <script src="javascripts/site.js?v=20260624-4" defer></script>
 
 </body>
 </html>

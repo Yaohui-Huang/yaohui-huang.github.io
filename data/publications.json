@@ -1,0 +1,440 @@
+{
+  "items": [
+    {
+      "id": "TPWRS-2026-CAMoE",
+      "selected": true,
+      "titleHtml": "Cycle-Aware Adaptive Mixture-of-Experts with High-Demand-Sensitive Asymmetric Loss for Effective Electrical Load Forecasting",
+      "authorsHtml": "<b>Yaohui Huang</b> and Yun Wang# and Runmin Zou and Laeeq Aslam and Qinghua Hu",
+      "venue": "IEEE Transactions on Power Systems",
+      "year": 2026,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/tpwrs-2026-CAMoE.jpg",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://ieeexplore.ieee.org/abstract/document/11563890",
+        "code": "",
+        "arxiv": ""
+      },
+      "tags": [
+        "Load Forecasting",
+        "Extreme Regression",
+        "Mixture-of-Experts"
+      ],
+      "bibtex": "@ARTICLE{journal/tpwrs2026/huangCAMoE,\n  author={Yaohui Huang and Yun Wang and Runmin Zou and Laeeq Aslam and Qinghua Hu},\n  journal={IEEE Transactions on Power Systems}, \n  title={Cycle-Aware Adaptive Mixture-of-Experts with High-Demand-Sensitive Asymmetric Loss for Effective Electrical Load Forecasting}, \n  year={2026},\n  volume={},\n  number={},\n  pages={1-16},\n  doi={10.1109/TPWRS.2026.3703864}\n}"
+    },
+    {
+      "id": "aaai2026-m2fmoe",
+      "selected": true,
+      "titleHtml": "M2FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting",
+      "authorsHtml": "<b>Yaohui Huang</b> and Runmin Zou and Yun Wang# and Laeeq Aslam and Ruipeng Dong",
+      "venue": "Proceedings of the 40th AAAI Conference on Artificial Intelligence",
+      "year": 2026,
+      "badges": [
+        {
+          "label": "CCF A",
+          "type": "ccf"
+        }
+      ],
+      "award": "Oral Presentation",
+      "image": "images/paper_images/AAAI2026_M2FMoE.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39362",
+        "arxiv": "https://arxiv.org/abs/2601.08631",
+        "code": "https://github.com/Yaohui-Huang/M2FMoE"
+      },
+      "tags": [
+        "Time Series Forecasting",
+        "Mixture-of-Experts",
+        "Extreme Regression"
+      ],
+      "bibtex": "@inproceedings{conference/aaai2026/Huang,\n  title = {M2FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting},\n  author = {Yaohui Huang and Runmin Zou and Yun Wang and Laeeq Aslam and Ruipeng Dong},\n  booktitle = {Proceedings of the 40th AAAI Conference on Artificial Intelligence},\n  publisher = {},\n  year = {2026},\n  volume = {40},\n  number = {26},\n  pages = {22075-22083},\n  doi = {10.1609/aaai.v40i26.39362},\n  url = {https://arxiv.org/abs/2601.08631},\n  address = {},\n  month = {}\n}"
+    },
+    {
+      "id": "TMC-2026-UAO",
+      "selected": false,
+      "titleHtml": "UAO: Unlocking Pedestrian Tracking With Acoustic Devices",
+      "authorsHtml": "Xinchuang Lin and Xiaosheng Zhu and <b>Yaohui Huang</b> and Long Qian and Yue Yu# and Liang Chen and Ruizhi Chen",
+      "venue": " IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "badges": [
+        {
+          "label": "CCF A",
+          "type": "ccf"
+        },
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/TMC-2026-UAO.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://ieeexplore.ieee.org/abstract/document/11479914",
+        "code": ""
+      },
+      "tags": [
+        "Acoustic Sensing",
+        "Pedestrian Tracking",
+        "Few-shot Learning"
+      ],
+      "bibtex": "@ARTICLE{journal/tmc2026/linUAO,\n  author={Lin, Xinchuang and Zhu, Xiaosheng and Huang, Yaohui and Qian, Long and Yu, Yue and Chen, Liang and Chen, Ruizhi},\n  journal={IEEE Transactions on Mobile Computing}, \n  title={UAO: Unlocking Pedestrian Tracking With Acoustic Devices}, \n  year={2026},\n  volume={},\n  number={},\n  pages={1-18},\n  doi={10.1109/TMC.2026.3682903}\n}"
+    },
+    {
+      "id": "APEN-2026-VORTEX",
+      "selected": false,
+      "titleHtml": "Physics-Informed Multi-Gated Convolutional Recurrent Network for Extreme Wind Speed Prediction",
+      "authorsHtml": "Laeeq Aslam and Runmin Zou# and <b>Yaohui Huang</b> and Gang Li and Fatima Yaqoob and Sara Mouafik and Saad Yousaf",
+      "venue": "Applied Energy",
+      "year": 2026,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/APEN-2026-VORTEX.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0306261926007464",
+        "code": ""
+      },
+      "tags": [
+        "Wind Speed Prediction",
+        "Extreme Regression",
+        "PINN"
+      ],
+      "bibtex": "@article{journal/apen2026/Laeeq,\nauthor = {Laeeq Aslam and Runmin Zou and Yaohui Huang and Gang Li and Fatima Yaqoob and Sara Mouafik and Saad Yousaf},\ntitle = {Physics-informed multi-gated convolutional recurrent network for extreme wind speed prediction},\njournal = {Applied Energy},\nvolume = {420},\npages = {128094},\nyear = {2026},\nissn = {0306-2619},\ndoi = {https://doi.org/10.1016/j.apenergy.2026.128094},\nurl = {https://www.sciencedirect.com/science/article/pii/S0306261926007464},\n}"
+    },
+    {
+      "id": "APEN-2026-Solar",
+      "selected": false,
+      "titleHtml": "A Comprehensive Review of Deep Learning for Solar Nowcasting: Enhancing Accuracy, Reliability, and Interpretability",
+      "authorsHtml": "Zhijin Wang and Senzhen Wu and <b>Yaohui Huang</b> and Ruyu Liu and Xiufeng Liu#",
+      "venue": "Applied Energy",
+      "year": 2026,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/APEN-2026-Solar.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/pii/S0306261926000309",
+        "code": ""
+      },
+      "tags": [
+        "Survey",
+        "Solar Nowcasting"
+      ],
+      "bibtex": "@article{journal/apen2026/Wangreview,\n  title={A comprehensive review of deep learning for solar nowcasting: Enhancing accuracy, reliability, and interpretability},\n  author={Wang, Zhijin and Wu, Senzhen and Huang, Yaohui and Liu, Ruyu and Liu, Xiufeng},\n  journal={Applied Energy},\n  volume={407},\n  pages={127378},\n  year={2026},\n}"
+    },
+    {
+      "id": "tste2025-windpower",
+      "selected": true,
+      "titleHtml": "An End-to-End Ensemble Learning Approach for Enhancing Wind Power Forecasting",
+      "authorsHtml": "Yun Wang and Houhua Xu and <b>Yaohui Huang</b># and Fan Zhang# and Hongbo Kou and Runmin Zou and Qinghua Hu and Dipti Srinivasan",
+      "venue": "IEEE Transactions on Sustainable Energy",
+      "year": 2025,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/tste2025_WindPower.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://ieeexplore.ieee.org/abstract/document/11048619",
+        "code": ""
+      },
+      "tags": [
+        "Wind Power Forecasting",
+        "Ensemble Learning",
+        "Dempster-Shafer Theory"
+      ],
+      "bibtex": "@article{journal/tste2025/Wang,\n  title = {An End-to-End Ensemble Learning Approach for Enhancing Wind Power Forecasting},\n  author = {Yun Wang and Houhua Xu and Yaohui Huang and Fan Zhang and Hongbo Kou and Runmin Zou and Qinghua Hu and Dipti Srinivasan},\n  journal = {IEEE Transactions on Sustainable Energy},\n  year = {2025},\n  volume = {},\n  number = {},\n  pages = {1-14},\n  doi = {10.1109/TSTE.2025.3582425},\n  url = {https://ieeexplore.ieee.org/abstract/document/11048619}\n}"
+    },
+    {
+      "id": "tsg2025-cadgn",
+      "selected": true,
+      "titleHtml": "Causality-Aware Multi-Graph Convolutional Networks With Critical Node Dynamics for Electric Vehicle Charging Station Load Forecasting",
+      "authorsHtml": "<b>Yaohui Huang</b> and Senzhen Wu and Zhijin Wang and Xiufeng Liu and Chendan Li and Yue Hu",
+      "venue": "IEEE Transactions on Smart Grid",
+      "year": 2025,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/tsg2025_CADGN.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://ieeexplore.ieee.org/abstract/document/11007094",
+        "code": ""
+      },
+      "tags": [
+        "Load Forecasting",
+        "EVCS",
+        "Causal Inference"
+      ],
+      "bibtex": "@article{journal/tsg2025/Huang,\n  title = {Causality-Aware Multi-Graph Convolutional Networks With Critical Node Dynamics for Electric Vehicle Charging Station Load Forecasting},\n  author = {Yaohui Huang and Senzhen Wu and Zhijin Wang and Xiufeng Liu and Chendan Li and Yue Hu},\n  journal = {IEEE Transactions on Smart Grid},\n  year = {2025},\n  volume = {16},\n  number = {4},\n  pages = {3210-3225},\n  doi = {10.1109/TSG.2024.3641234},\n  url = {https://ieeexplore.ieee.org/abstract/document/11007094}\n}"
+    },
+    {
+      "id": "energy2025-msdgn",
+      "selected": false,
+      "titleHtml": "Multi-Scale Temporal Representation with Sparse Dynamic Graph Learning for District Heat Load Forecasting",
+      "authorsHtml": "<b>Yaohui Huang</b>* and Peisong Zhang* and Zhenkun Lu and Zhikai Ni",
+      "venue": "Energy",
+      "year": 2025,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/energy2025_MSDGN.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/pii/S0360544225024806",
+        "code": ""
+      },
+      "tags": [
+        "Load Forecasting",
+        "Multi-scale",
+        "Sparse Learning"
+      ],
+      "bibtex": "@article{journal/energy2025/Huang,\n  title = {Multi-Scale Temporal Representation with Sparse Dynamic Graph Learning for District Heat Load Forecasting},\n  author = {Yaohui Huang and Peisong Zhang and Zhenkun Lu and Zhikai Ni},\n  journal = {Energy},\n  year = {2025},\n  volume = {333},\n  number = {},\n  pages = {136838},\n  doi = {https://doi.org/10.1016/j.energy.2025.136838},\n  url = {https://www.sciencedirect.com/science/article/pii/S0360544225024806}\n}"
+    },
+    {
+      "id": "apen2024-sdgnn",
+      "selected": true,
+      "titleHtml": "Sparse Dynamic Graph Learning for District Heat Load Forecasting",
+      "authorsHtml": "<b>Yaohui Huang</b>* and Yuan Zhao* and Zhijin Wang and Xiufeng Liu and Yonggang Fu",
+      "venue": "Applied Energy",
+      "year": 2024,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/apen2024_SDGNN.jpg",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/pii/S0306261924010687",
+        "code": ""
+      },
+      "tags": [
+        "Graph Neural Networks",
+        "Load Forecasting",
+        "Sparse Learning"
+      ],
+      "bibtex": "@article{journal/apen2024/Huang,\n  title = {Sparse Dynamic Graph Learning for District Heat Load Forecasting},\n  author = {Yaohui Huang and Yuan Zhao and Zhijin Wang and Xiufeng Liu and Yonggang Fu},\n  journal = {Applied Energy},\n  year = {2024},\n  volume = {371},\n  number = {},\n  pages = {123685},\n  doi = {},\n  url = {https://www.sciencedirect.com/science/article/pii/S0306261924010687}\n}"
+    },
+    {
+      "id": "aeees2024-evcs",
+      "selected": false,
+      "titleHtml": "Multiscale Spatio-Temporal Enhanced Short-term Load Forecasting of Electric Vehicle Charging Stations",
+      "authorsHtml": "Zongbao Zhang and Jiao Hao and Wenmeng Zhao and Yan Liu and <b>Yaohui Huang</b># and Xinhang Luo",
+      "venue": "Proceeds of the 2024 6th Asia Energy and Electrical Engineering Symposium (AEEES'24)",
+      "year": 2024,
+      "badges": [
+        {
+          "label": "EI",
+          "type": "ei"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/aeees2024.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://ieeexplore.ieee.org/document/10544962",
+        "code": "",
+        "arxiv": "https://arxiv.org/abs/2405.19053"
+      },
+      "tags": [
+        "Graph Neural Networks",
+        "Load Forecasting",
+        "Electric Vehicle"
+      ],
+      "bibtex": "@inproceedings{conference/aeees2024/Zhang,\n  title = {Multiscale Spatio-Temporal Enhanced Short-term Load Forecasting of Electric Vehicle Charging Stations},\n  author = {Zongbao Zhang and Jiao Hao and Wenmeng Zhao and Yan Liu and Yaohui Huang and Xinhang Luo},\n  booktitle = {AEEES},\n  publisher = {{IEEE}},\n  year = {2024},\n  volume = {},\n  number = {},\n  pages = {1180-1185},\n  doi = {10.1007/978-3-031-08530-7_11},\n  url = {https://ieeexplore.ieee.org/document/10544962},\n  address = {Chengdu, China},\n  month = {March}\n}"
+    },
+    {
+      "id": "eaai2024-carbon",
+      "selected": false,
+      "titleHtml": "Carbon Futures Price Forecasting Based on Feature Selection",
+      "authorsHtml": "Yuan Zhao* and <b>Yaohui Huang</b>* and Zhijin Wang and Xiufeng Liu",
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "year": 2024,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        },
+        {
+          "label": "CCF C",
+          "type": "ccf"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/eaai2024.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/pii/S0952197624008042",
+        "code": ""
+      },
+      "tags": [
+        "Energy Economics",
+        "Feature Selection",
+        "Importance Measurement"
+      ],
+      "bibtex": "@article{journal/eaai2024/Zhao,\n  title = {Carbon Futures Price Forecasting Based on Feature Selection},\n  author = {Yuan Zhao and Yaohui Huang and Zhijin Wang and Xiufeng Liu},\n  journal = {Engineering Applications of Artificial Intelligence},\n  year = {2024},\n  volume = {135},\n  number = {},\n  pages = {108646},\n  doi = {10.1016/j.engappai.2024.108646},\n  url = {https://www.sciencedirect.com/science/article/pii/S0952197624008042}\n}"
+    },
+    {
+      "id": "neucom2024-crude-oil",
+      "selected": false,
+      "titleHtml": "A New Feature Selection Method Based on Importance Measures for Crude Oil Return Forecasting",
+      "authorsHtml": "Yuan Zhao* and <b>Yaohui Huang</b>* and Zhijin Wang and Xiufeng Liu",
+      "venue": "Neurocomputing",
+      "year": 2024,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        },
+        {
+          "label": "CCF C",
+          "type": "ccf"
+        }
+      ],
+      "award": "",
+      "image": "./images/load.gif",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/pii/S0925231224002418",
+        "code": ""
+      },
+      "tags": [
+        "Energy Economics",
+        "Feature Selection",
+        "Importance Measurement"
+      ],
+      "bibtex": "@article{journal/neucom2024/Zhao,\n  title = {A New Feature Selection Method Based on Importance Measures for Crude Oil Return Forecasting},\n  author = {Yuan Zhao and Yaohui Huang and Zhijin Wang and Xiufeng Liu},\n  journal = {Neurocomputing},\n  year = {2024},\n  volume = {581},\n  number = {},\n  pages = {127470},\n  doi = {10.1016/j.neucom.2024.127470},\n  url = {https://www.sciencedirect.com/science/article/pii/S0925231224002418}\n}"
+    },
+    {
+      "id": "apen2023-active-learning",
+      "selected": true,
+      "titleHtml": "Explainable District Heat Load Forecasting with Active Deep Learning",
+      "authorsHtml": "<b>Yaohui Huang</b>* and Yuan Zhao* and Zhijin Wang and Xiufeng Liu and Hanjing Liu and Yonggang Fu",
+      "venue": "Applied Energy",
+      "year": 2023,
+      "badges": [
+        {
+          "label": "JCR Q1",
+          "type": "jcr"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/apen2023_Ac-GRN.jpg",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://www.sciencedirect.com/science/article/pii/S0306261923011170",
+        "code": ""
+      },
+      "tags": [
+        "Graph Neural Networks",
+        "Active Learning",
+        "Load Forecasting"
+      ],
+      "bibtex": "@article{journal/apen2023/Huang,\n  title = {Explainable District Heat Load Forecasting with Active Deep Learning},\n  author = {Yaohui Huang and Yuan Zhao and Zhijin Wang and Xiufeng Liu and Hanjing Liu and Yonggang Fu},\n  journal = {Applied Energy},\n  year = {2023},\n  volume = {350},\n  number = {},\n  pages = {121753},\n  doi = {},\n  url = {https://www.sciencedirect.com/science/article/pii/S0306261923011170}\n}"
+    },
+    {
+      "id": "ieaaie2022-attention",
+      "selected": false,
+      "titleHtml": "An Oriented Attention Model for Infectious Disease Cases Prediction",
+      "authorsHtml": "Peisong Zhang and Zhijin Wang and Guoqing Chao and <b>Yaohui Huang</b> and Jingwen Yan",
+      "venue": "IEA/AIE",
+      "year": 2022,
+      "badges": [
+        {
+          "label": "EI",
+          "type": "ei"
+        }
+      ],
+      "award": "Best Special Session Paper Award",
+      "image": "images/paper_images/ieaaie2022.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "https://link.springer.com/chapter/10.1007/978-3-031-08530-7_11",
+        "code": ""
+      },
+      "tags": [
+        "Infectious Disease",
+        "Attention Mechanism"
+      ],
+      "bibtex": "@inproceedings{conference/ieaaie2022/Zhang,\n  title = {An Oriented Attention Model for Infectious Disease Cases Prediction},\n  author = {Peisong Zhang and Zhijin Wang and Guoqing Chao and Yaohui Huang and Jingwen Yan},\n  booktitle = {IEA/AIE},\n  publisher = {Springer},\n  year = {2022},\n  volume = {13343},\n  number = {},\n  pages = {},\n  doi = {10.1007/978-3-031-08530-7_11},\n  url = {https://link.springer.com/chapter/10.1007/978-3-031-08530-7_11},\n  address = {Kitakyushu, Japan},\n  month = {July}\n}"
+    },
+    {
+      "id": "nepl2023-hfmd",
+      "selected": false,
+      "titleHtml": "HFMD Cases Prediction using Transfer One-step-ahead Learning",
+      "authorsHtml": "<b>Yaohui Huang</b> and Peisong Zhang and Ziyang Wang and Zhenkun Lu and Zhijin Wang",
+      "venue": "Neural Processing Letters",
+      "year": 2023,
+      "badges": [
+        {
+          "label": "JCR Q3",
+          "type": "jcr"
+        },
+        {
+          "label": "CCF C",
+          "type": "ccf"
+        }
+      ],
+      "award": "",
+      "image": "images/paper_images/nepl2023.png",
+      "imageZoom": 1.06,
+      "imagePosition": "center",
+      "links": {
+        "paper": "http://doi.org/10.1007/s11063-022-10795-9",
+        "code": ""
+      },
+      "tags": [
+        "Infectious Disease",
+        "Transfer Learning"
+      ],
+      "bibtex": "@article{journal/nepl2022/Huang,\n  title = {HFMD Cases Prediction using Transfer One-step-ahead Learning},\n  author = {Yaohui Huang and Peisong Zhang and Ziyang Wang and Zhenkun Lu and Zhijin Wang},\n  journal = {Neural Processing Letters},\n  year = {2023},\n  volume = {55},\n  number = {3},\n  pages = {2321 -- 2339},\n  doi = {10.1007/s11063-022-10795-9},\n  url = {http://doi.org/10.1007/s11063-022-10795-9}\n}"
+    }
+  ]
+}

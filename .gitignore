@@ -1,3 +1,69 @@
+# Editors and OS files
 .idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.sublime-workspace
+*.sublime-project
+
+# Local helper/runtime folders
 code/
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+
+# Python caches
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local temporary files
+*.log
+*.tmp
+*.bak
+*.orig
+tmp/
+temp/
+.cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Browser/test/build output
+coverage/
+playwright-report/
+test-results/
+.nyc_output/
+.parcel-cache/
+.vite/
+dist/
+build/
+
+# Local JSON drafts and admin exports
+/publications.json
+/news.json
+/projects.json
+/service.json
+data/*.local.json
+data/*.draft.json
+data/*.tmp.json
+data/*.bak.json
+data/*.backup.json
+data/*-local.json
+data/*-draft.json
+data/*-backup.json
+
+# Old spreadsheet-driven update workflow
+*.xlsx
+*.xls
+~$*.xlsx
+~$*.xls
 
