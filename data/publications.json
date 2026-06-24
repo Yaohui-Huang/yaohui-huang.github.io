@@ -262,7 +262,7 @@
       "selected": false,
       "titleHtml": "Multiscale Spatio-Temporal Enhanced Short-term Load Forecasting of Electric Vehicle Charging Stations",
       "authorsHtml": "Zongbao Zhang and Jiao Hao and Wenmeng Zhao and Yan Liu and <b>Yaohui Huang</b># and Xinhang Luo",
-      "venue": "Proceeds of the 2024 6th Asia Energy and Electrical Engineering Symposium (AEEES'24)",
+      "venue": "Proceedings of the 6th Asia Energy and Electrical Engineering Symposium (AEEES'24)",
       "year": 2024,
       "badges": [
         {
@@ -309,7 +309,8 @@
       "imagePosition": "center",
       "links": {
         "paper": "https://www.sciencedirect.com/science/article/pii/S0952197624008042",
-        "code": ""
+        "code": "",
+        "arxiv": ""
       },
       "tags": [
         "Energy Economics",
@@ -341,7 +342,8 @@
       "imagePosition": "center",
       "links": {
         "paper": "https://www.sciencedirect.com/science/article/pii/S0925231224002418",
-        "code": ""
+        "code": "",
+        "arxiv": ""
       },
       "tags": [
         "Energy Economics",
@@ -369,7 +371,8 @@
       "imagePosition": "center",
       "links": {
         "paper": "https://www.sciencedirect.com/science/article/pii/S0306261923011170",
-        "code": ""
+        "code": "",
+        "arxiv": ""
       },
       "tags": [
         "Graph Neural Networks",
@@ -383,7 +386,7 @@
       "selected": false,
       "titleHtml": "An Oriented Attention Model for Infectious Disease Cases Prediction",
       "authorsHtml": "Peisong Zhang and Zhijin Wang and Guoqing Chao and <b>Yaohui Huang</b> and Jingwen Yan",
-      "venue": "IEA/AIE",
+      "venue": "Proceedings of the International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE'22)",
       "year": 2022,
       "badges": [
         {
@@ -397,7 +400,8 @@
       "imagePosition": "center",
       "links": {
         "paper": "https://link.springer.com/chapter/10.1007/978-3-031-08530-7_11",
-        "code": ""
+        "code": "",
+        "arxiv": ""
       },
       "tags": [
         "Infectious Disease",
@@ -428,7 +432,8 @@
       "imagePosition": "center",
       "links": {
         "paper": "http://doi.org/10.1007/s11063-022-10795-9",
-        "code": ""
+        "code": "",
+        "arxiv": ""
       },
       "tags": [
         "Infectious Disease",
